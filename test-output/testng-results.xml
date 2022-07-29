@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-29T18:43:14 IST" name="Default suite" finished-at="2022-07-29T18:46:04 IST" duration-ms="170189">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-29T18:43:14 IST" name="Default test" finished-at="2022-07-29T18:46:04 IST" duration-ms="170189">
+      <class name="com.Runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:43:14 IST" name="setUpClass" finished-at="2022-07-29T18:43:14 IST" duration-ms="328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@138a85d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:43:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:43:45 IST" duration-ms="31158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Accessibility Feature"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Exploring Acessibility Option in API Demos"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:43:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:44:10 IST" duration-ms="25008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Animation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Explore Animation Option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:44:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:44:37 IST" duration-ms="26861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Animation Events"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Interacting with Events in Animation Option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:44:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:45:04 IST" duration-ms="26933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Hide Show Animation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Hide Show Animations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:45:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:45:38 IST" duration-ms="34127" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Path Animations and Simple Transitions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Interacting with Path Animations and Simple Transitions"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-H1SM2J3', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ccadea80-ac8f-426c-9936-a6e500c20b3c, findElement {using=xpath, value=//*[@text='Simple Transitions']}]
+Capabilities {appium:app: C:\\Users\\chandni\\Documen..., appium:appPackage: com.touchboarder.android.ap..., appium:databaseEnabled: false, appium:desired: {app: C:\\Users\\chandni\\Documen..., deviceName: AXL, platformName: android}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 9, appium:statBarHeight: 172, appium:takesScreenshot: true, appium:viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ccadea80-ac8f-426c-9936-a6e500c20b3c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-H1SM2J3', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [ccadea80-ac8f-426c-9936-a6e500c20b3c, findElement {using=xpath, value=//*[@text='Simple Transitions']}]
+Capabilities {appium:app: C:\\Users\\chandni\\Documen..., appium:appPackage: com.touchboarder.android.ap..., appium:databaseEnabled: false, appium:desired: {app: C:\\Users\\chandni\\Documen..., deviceName: AXL, platformName: android}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 9, appium:statBarHeight: 172, appium:takesScreenshot: true, appium:viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: ccadea80-ac8f-426c-9936-a6e500c20b3c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at com.stepDefinations.StepDef_TestFeature5.press_on_the_simple_transitions(StepDef_TestFeature5.java:80)
+at ✽.Press on the Simple Transitions(file:///C:/Users/chandni/Documents/Exit_Test/src/main/java/com/Features/TestFeature5.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:45:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-29T18:46:04 IST" duration-ms="25677" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Layout Animations"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Exploring Layout Animations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-H1SM2J3', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [694a64e4-52c3-4100-bfb7-17517982ddfd, findElement {using=xpath, value=//*[@text='1']}]
+Capabilities {appium:app: C:\\Users\\chandni\\Documen..., appium:appPackage: com.touchboarder.android.ap..., appium:databaseEnabled: false, appium:desired: {app: C:\\Users\\chandni\\Documen..., deviceName: AXL, platformName: android}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 9, appium:statBarHeight: 172, appium:takesScreenshot: true, appium:viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 694a64e4-52c3-4100-bfb7-17517982ddfd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'IN-H1SM2J3', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [694a64e4-52c3-4100-bfb7-17517982ddfd, findElement {using=xpath, value=//*[@text='1']}]
+Capabilities {appium:app: C:\\Users\\chandni\\Documen..., appium:appPackage: com.touchboarder.android.ap..., appium:databaseEnabled: false, appium:desired: {app: C:\\Users\\chandni\\Documen..., deviceName: AXL, platformName: android}, appium:deviceApiLevel: 28, appium:deviceManufacturer: Google, appium:deviceModel: AOSP on IA Emulator, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x3040, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 9, appium:statBarHeight: 172, appium:takesScreenshot: true, appium:viewportRect: {height: 2529, left: 0, top: 172, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 694a64e4-52c3-4100-bfb7-17517982ddfd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at com.stepDefinations.StepDef_TestFeature6.validate_that_the_buttons_are_visible_or_are_not_showing(StepDef_TestFeature6.java:66)
+at ✽.validate that the buttons are visible or are not showing(file:///C:/Users/chandni/Documents/Exit_Test/src/main/java/com/Features/TestFeature6.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.Runner.Runner@4a83a74a]" started-at="2022-07-29T18:46:04 IST" name="tearDownClass" finished-at="2022-07-29T18:46:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
